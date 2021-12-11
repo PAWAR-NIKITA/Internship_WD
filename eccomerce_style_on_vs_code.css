@@ -1,0 +1,387 @@
+
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+.nav{
+   background-color: white;
+   z-index: 9;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   display: flex;
+   box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, .20);
+}
+
+/*.nav_top{
+    position:fixed;          //due to this paer navigation part become there fixed position.
+    top: 0;
+    right: 0;
+    left: 0;
+}*/
+
+.logo{
+   float: left;
+   width: 60%;
+   margin-top:none;
+
+}
+.logo img{
+   padding: 20px;
+   width:150px ;
+   box-shadow: none;
+}
+
+.nav_side{
+   margin-top: 40px;
+   float: right;
+   width: 40%;
+}
+.nav_side a{
+   padding-right: 20px;
+   text-decoration: none;
+   text-align: right;
+   color: black;
+   font-family: Basely;
+   font-size: 18px;
+   font-weight: bold;
+   justify-content: center;
+   align-items: center;
+   align-content: center;	
+   text-align: center;
+
+}
+.nav_side a:hover{
+   color: #FF8000;
+   font-size: 20px;
+   text-decoration: underline;
+   text-shadow: 2px 2px #F3E2A9;
+   transition: all 0.7s ease;
+}
+.main{
+   background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-creative-synthesis-simple-book-education-and-training-background-image_219497.jpg");
+   background-position: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 70vh;
+}
+.main .main_content{
+   padding-top: 30px;
+   margin-left: 30px;
+   margin-right: 30px;
+
+}
+.main .main_content h2{
+   color: brown;
+   font-family: Basely;
+   font-weight: bold;
+   text-align: center;
+   font-size: 50px;
+}
+.main .main_content h2 span{
+   color: #5F4C0B;
+   font-size: 20px;
+   opacity: 0.6;
+   font-weight: lighter;
+}
+.main .main_content h2:hover{
+   color: #B18904;
+   font-weight: 500;
+}
+.main .main_content h2 span:hover{
+   color: brown;
+   font-weight:normal;
+}
+.main .main_content .btn{
+   margin:100px 500px;   /*contents come in center*/
+
+}
+.main .main_content .btn a{
+   text-align:center ;
+   margin: 20px;
+   padding: 10px 10px;
+   background-color: blue;
+   color: white;
+   border: 1px solid snow;
+   border-radius: 10px;
+   text-decoration: none;
+   font-family: Basely;
+   box-shadow: 5px 5px 35px 5px #E0E0F8;
+
+
+}
+.main .main_content .btn a:hover{
+   background-color:#F3F781;
+   color: blue;
+   border: none;
+   font-weight: bold;
+   transition: all 0.7s ease;
+}
+
+/*.products h1{
+   text-align: center;
+   padding: 30px;
+   font-family: Basely;
+   font-size: 40px;
+   color: #21610B;
+   font-weight: lighter;
+}
+.products img{
+   padding: 10px;
+}*/
+
+.products h2{
+   text-align: center;
+   color:#0B615E;
+   font-weight: lighter;
+   font-size: 35px;
+   font-family: Basely;
+   padding: 20px;
+}
+.products .products_container{
+   display: flex;
+}
+.products .products_container .item:hover{
+   box-shadow:0px 3px 65px 0px #848484;
+}
+.products .products_container .item .item_content{
+   margin-left: 30px;
+   margin-bottom:50px;
+   text-align: center;
+}
+.products .products_container .item  .item_content a{
+   text-decoration: none;
+   color: white;
+   background-color:#0000FF;
+   font-family: Basely;
+   font-size: 18px;
+   border-radius: 5px;
+   padding: 5px;
+}
+.products .products_container .item .item_content h3{
+   padding-top: 20px;
+   font-weight: bold;
+   font-family: Basely;
+   color: #610B4B;
+}
+.products .products_container .item  .item_content a:hover{
+   background-color:#F3F781;
+   color: blue;
+   font-size: 20px;
+   border-radius: 8px;
+   transition: 0.8s;
+}
+.products .products_container .item .item_content p{
+   font-family: Basely;
+   color:#0080FF;
+   background-color:#F5EFFB;
+   padding: 5px;
+   margin: 30px;
+
+
+}
+.products .products_container .item .item_content p:hover{
+   color:#0080FF;
+   background-color:#EFFBEF;
+}
+.products .product_btn{
+   margin:50px ;
+   text-align: center;
+}
+.products .product_btn a{
+   padding:10px;
+   text-decoration: none;
+   background-color:#0000FF;
+   color: white;
+   border-radius:10px;
+}
+.products .product_btn a:hover{
+   padding:10px;
+   text-decoration: none;
+   border-radius:10px;
+   background-color:#F3F781;
+   color: blue;
+   border: none;
+   font-weight: bold;
+   transition: all 0.7s ease;
+}
+.keypoint{
+   padding: 50px;
+   margin: 20px;
+}
+.keypoint h2{
+   text-align: center;
+   color:#0B615E;
+   font-weight: lighter;
+   font-size: 35px;
+   font-family: Basely;
+   padding:20px;
+}
+.keypoint .key_container{
+   display: flex;
+}
+.keypoint .key_container .key_content{
+   width: 50%;
+   padding: 10px;
+   float: left;
+}
+.keypoint .key_container .key_img{
+   margin-left:120px;
+   width: 50%;
+   padding: 10px;
+   float:right;
+}
+.keypoint .key_container .key_content li{
+   padding:15px;
+   border-left: 2px solid #2EFE2E;
+   border-right: 2px solid #2EFE2E;
+   box-shadow:0px 3px 65px 0px #D8D8D8;
+   font-size: 18px;
+   font-family: Basely;
+   color:#190707;
+   list-style:disc;
+
+}
+.keypoint .key_container .key_content li:hover{
+   background-color:#EFFBEF;
+   font-size:19px;
+}
+.testi{
+   padding: 50px;
+}
+.testi h2{
+   text-align: center;
+   color:#0B615E;
+   font-weight: lighter;
+   font-size: 35px;
+   font-family: Basely;
+   padding:20px;
+}
+.testi_container{
+   margin-right: 10%;
+   margin-left: 10%;
+   text-align: center;
+}
+.testi .testi_container .carousel-inner{
+   background-color:#94F4FB;
+
+}
+.testi .testi_container .item{
+   width: 100%;
+   padding: 20px;
+} 
+.testi .testi_container .item .item_img{
+   margin-top:50px ;
+   width: 100%;
+   overflow:inherit;
+   text-align: center;
+}
+.testi .testi_container .item .item_img img{
+   border-radius: 50%;
+   box-shadow:10px 10px 65px 30px white,10px 10px 70px 100px #C0F2FD;
+}
+.testi .testi_container .carousel .carousel-inner .item .item_content h3{
+   padding-top: 50px;
+   font-size: 25px;
+   font-family:Basely;
+   color:#010008;
+   padding-bottom: 5px;
+}
+.testi .testi_container .carousel .carousel-inner .item .item_content {
+   padding-bottom:50px ;
+   font-size: 20px;
+   font-family:Basely;
+   color:#010008;
+   padding-bottom: 5px;
+   font-weight:lighter ;
+}
+
+footer{
+   background-color: #d1d1d1;
+   padding: 50px;
+}
+footer .pages{
+   text-align: center;
+}
+footer .pages h3{
+   font-size: 22px;
+   font-family:Basely;
+   font-weight: bold;
+   color: #610B21;
+   padding: 5px;
+}
+footer .pages a{
+   text-decoration: none;
+   margin: 15px;
+   color: #DF7401;
+   font-size: 15px;
+}
+footer .pages a:hover{
+   color: black;
+   font-size: 16px;
+}
+footer .doc{
+   text-align: center;
+}
+footer .doc h3{
+   font-size: 22px;
+   font-family:Basely;
+   font-weight: bold;
+   color: #610B21;
+   padding: 5px;
+}
+footer .doc a{
+   text-decoration: none;
+   margin: 15px;
+   color: #DF7401;
+   font-size: 15px;
+}
+footer .doc a:hover{
+   color: black;
+   font-size: 16px;
+}
+footer .social{
+   text-align: center;
+}
+footer .social h3{
+   font-size: 22px;
+   font-family:Basely;
+   font-weight: bold;
+   color: #610B21;
+   padding: 5px;
+}
+footer .contact{
+   text-align: center;
+}
+footer .contact h3{
+   font-family:Basely;
+   font-weight: bold;
+   font-size: 22px;
+   color: #610B21;
+   padding: 5px;
+}
+footer .contact a{
+   margin-top: 10px;
+   padding: 10px;
+   font-size: 25px;
+   color: #086A87;
+}
+footer .contact a:hover{
+   color:#86B404;
+   font-size: 26px;
+}
+footer .social a{
+   margin-top: 10px;
+   padding: 10px;
+   font-size: 25px;
+   color: #086A87;
+}
+footer .social a:hover{
+   color:#86B404;
+   font-size: 26px;
+}
